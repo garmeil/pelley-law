@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.container-nav {
+    display: flex;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    background: #233f49;
+    padding: 12px 10px;
+}
+.container-nav-wrap {
+    color: white;
+    padding-top: 5px;
+    background: black;
+}
+.nav-link {
+    font-size: 18px;
+    padding: 0px 40px;
+    border-left: .5px white solid;
+    border-right: .5px white solid;
+}
+.menu-button {
+    display:none;
+}
+.contact-button {
+    display: none;
+    width: 150px;
+    background: #590000;
+    padding: 20px 0px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+@media (max-width: 1060px) {
+    .nav-link {
+        font-size: 17px;
+        padding: 0px 12px;
+    }
+}
+@media (max-width: 750px) {
+    .nav-link {
+        font-family: 'Open Sans', sans-serif;
+        background:  #233f49;
+        width: 298px;
+        padding: 10px 24px 10px 10px;
+        font-size: 15px;
+        border: 1px solid white;
+        font-weight: 600;
+        display: flex;
+    }
+    .nav-link-container {
+        display: none;
+    }
+    .nav-link-container.expanded{
+        display: flex;
+        flex-direction: column;
+    }
+    .container-nav {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        background: white;
+        
+    }
+    .nav-buttons-container {
+        display:flex;
+        width: 334px;
+        justify-content: space-between;
+
+    }
+    .menu-button {
+        display: inline;
+        background: #233f49;
+        width: 150px;
+        padding: 20px 0px;
+        margin-right: 20px;
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 700;
+        border-radius: 5px;
+    }   
+    .contact-button {
+        display: inline;
+    }
+}
+@media (max-width: 570px) {
+    .nav-buttons-container {
+        width: 270px;
+    }
+    .menu-button {
+        margin-right: 10px;
+    }
+    .nav-link {
+        width: 235px;
+    }
+}
