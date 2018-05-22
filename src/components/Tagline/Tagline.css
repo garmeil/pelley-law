@@ -51,13 +51,17 @@ strong {
     flex: 1;
 }
 .prac-container {
-    border-top: black 10px solid;
+    border-top: black 13px solid;
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
     margin-right: 14px;
     flex: 1;
     background: #223E48;
+}
+.prac-container:hover {
+    cursor: pointer;
+  background: #461915;
 }
 .prac-image {
     width: 161px;
@@ -102,5 +106,52 @@ strong {
     .prac-desc p {
         
         text-align: left;
+    }
+}
+@media (max-width: 750px) {
+    
+    .container-tagline {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        background-image: none;
+        background: #051219;
+        height: 267px;
+    }
+    strong {
+        font-size: 19px;
+        line-height: 25.65px;
+    }
+    .tagline-phone-number {
+        font-size: 31px;
+        line-height: 41.85px;
+    }
+    .tagline-multi-wrap {
+        display: flex;
+        flex-direction: column;
+    }
+    .tagline-multi-wrap p {
+        align-self: center;
+        font-size: 15px;
+        line-height: 20.25px;
+        padding: 15px 0px 8px 0px;
+        margin: 0 42px;
+        width: 400px;
+    }
+    .prac-container-wrap {
+        display: none;
+    }
+    .pracs-button{
+        display: inline;
+        align-self: center;
+        background-color: #233f49;
+        color: white;
+        width: 320px;
+        padding: 20px 34px;
+        margin: 0 82px 10px 82px;
+        font-size: 16px;
+        border-radius: 3px;
+        cursor: pointer;
     }
 }

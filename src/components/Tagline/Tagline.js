@@ -1,4 +1,5 @@
 import React from 'react';
+import MdMenu from "react-icons/lib/md/menu"
 import "./Tagline.css"
 
 export default class Tagline extends React.Component {
@@ -16,6 +17,7 @@ export default class Tagline extends React.Component {
                 <p className="">WANT TO GET OUT OF JAIL FASTER, HIRE A VETERAN DEFENSE TEAM, & SAVE MONEY ALL AT ONCE?</p>
                 <strong className="">Of course you do. <a href='#'>Click here</a> right now.</strong>
             </div>
+            <div className="pracs-button"><MdMenu size={24} /> VIEW OUR PRACTICE AREAS</div>
             <div className="tagline-pracs">
                 <div className="prac-container-wrap">
                     <div className="prac-container">
