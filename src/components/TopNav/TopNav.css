@@ -3,14 +3,18 @@
 .container-nav {
     display: flex;
     font-weight: 500;
+    width: 1181px;
     font-family: 'Open Sans', sans-serif;
     background: #233f49;
     padding: 12px 10px;
 }
 .container-nav-wrap {
+    border-top: black 6px solid;
+    display: flex;
+    justify-content: center;
     color: white;
     padding-top: 5px;
-    background: black;
+    background: #233f49;
 }
 .nav-link {
     font-size: 18px;
